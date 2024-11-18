@@ -1,0 +1,50 @@
+.coaches {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.coaches-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.coaches-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.coach-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.coach-name {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.coach-bio {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.coach-speciality,
+.coach-stakes,
+.coach-price {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.coach-price strong {
+    color: #222;
+}
