@@ -1,0 +1,32 @@
+.section {
+    background-color: #35654d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-container {
+    max-width: 1280px;
+}
+
+.section-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Left side text content */
+.section-header h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin: 0;
+    text-align: -webkit-left;
+}
+
+/* Right side image styling */
+.section-image img {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+}
